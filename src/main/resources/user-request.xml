@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://springboot.bnitest.com/model">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getUserRequest>
+            <us:accNum>1231</us:accNum>
+        </us:getUserRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
